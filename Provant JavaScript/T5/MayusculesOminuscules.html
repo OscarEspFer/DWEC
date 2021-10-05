@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+
+<script type="text/javascript">
+    var nombre = window.prompt("Introdueix una frase");
+    alert(esmajus(nombre));
+   function esmajus(nombre) {
+       var minus = false;
+       var majus = false;
+       var num = false;
+       splittednombre = nombre.split("");
+       splittednombre.forEach(element => {
+           if(element ==element.toLowerCase()){
+               minus = true;
+           }else{
+               majus = true;
+           }
+           if (!isNaN(element)) {
+               num = true;
+           }
+       });
+       if(num == true){
+           return "NUMEROS DETECTATS. NO PERMESOS."
+       }else
+       if(minus == true && majus == true){
+           return "Minuscules i majuscules"
+       }else if (minus == true) {
+           return "Minuscules"
+       }else{
+           return "Majuscules"
+       }
+   }
+    
+    
+</script>
+
+
+</body>
+</html>

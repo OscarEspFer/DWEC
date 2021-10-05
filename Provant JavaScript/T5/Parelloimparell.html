@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+
+<script type="text/javascript">
+    var nombre = window.prompt("Introdueix un nombre");
+    alert(esparell(nombre));
+   function esparell(nombre) {
+       if(!isNaN(nombre)){
+            if(nombre%2 == 0){
+                return "Es parell";
+            }else{
+                return "No es parell";
+            }
+       }
+       else{
+           return(nombre+" No es un nombre");
+       }
+       
+   }
+    
+    
+</script>
+
+
+</body>
+</html>

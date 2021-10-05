@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+<body >
+    <div id="body"></div>
+
+
+<script type="text/javascript">
+        var json = [{Nom:"Rosa",Cognom:"Ferrer",Dni:"431432D"},
+                {Nom:"Oscar",Cognom:"España",Dni:"5547989723M"},
+                {Nom:"Alex",Cognom:"Granell",Dni:"554793F"},
+                {Nom:"Vladislav",Cognom:"Hostyuk",Dni:"---"},
+                {Nom:"Tatiana",Cognom:"Hikari",Dni:"23452435U"}
+                ];
+    var taula = appendTable(false)
+    taula = taula+append1row()
+    taula = taula+appendRows()
+    taula = taula+appendTable(true)
+    console.log(taula);
+    document.getElementById("body").innerHTML += 
+              taula;
+    function appendTable(value){
+        if(value){
+            return "</table>"
+        }
+        return "<table>"
+    }
+    function append1row(){
+        return "<tr><td>NOM</td><td>COGNOM</td><td>DNI</td></tr>"
+    }
+    function appendRows(){
+        var rows="";
+        json.forEach(element => {
+            rows = rows+"<tr><td>"+element.Nom+"</td>"+"<td>"+element.Cognom+"</td>"+"<td>"+element.Dni+"</td></tr>"
+        });
+        return rows;
+    }
+</script>
+
+
+</body>
+</html>

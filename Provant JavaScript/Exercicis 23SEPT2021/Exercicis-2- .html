@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+
+<script type="text/javascript">
+    var array = [1,2,3,4,5,6,7,8,9,10,11,12,13,14,15]
+    var maxim = 0;
+    var minim = 999999999999999999;
+    array.forEach(element => {
+        if (element > maxim){
+            maxim = element;
+        }
+        if (element < minim){
+            minim = element;
+        }
+    });
+    alert("Maxim "+maxim+" Minim "+minim);
+
+</script>
+
+
+</body>
+</html>

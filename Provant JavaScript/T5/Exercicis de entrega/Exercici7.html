@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+
+<script type="text/javascript">
+    alert(formataData(30,1,2000));
+    function formataData(dia,mes,any){
+        switch (mes) {
+            case 1:
+                return dia+" de gener del "+any
+                break;
+            case 2:
+                return dia+" de febrer del "+any
+                break;
+            case 3:
+                return dia+" de març del "+any
+                break;
+            case 4:
+                return dia+" de abril del "+any
+                break;
+            case 5:
+                return dia+" de maig del "+any
+                break;
+            case 6:
+                return dia+" de juny del "+any
+                break;
+            case 7:
+                return dia+" de juliol del "+any
+                break;
+            case 8:
+                return dia+" de agost del "+any
+                break;
+            case 9:
+                return dia+" de septembre del "+any
+                break;
+            case 10:
+                return dia+" de octubre del "+any
+                break;
+            case 11:
+                return dia+" de novembre del "+any
+                break;
+            case 12:
+                return dia+" de descembre del "+any
+                break;
+            default:
+                return "ERROR, MES INEXISTENT"
+                break;
+        }
+        
+    }
+</script>
+
+
+</body>
+</html>

@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+
+<script type="text/javascript">
+    do {
+        var nota = window.prompt('Introdueix la nota del alumne');
+        if (isNaN(nota)){
+            alert("perfavor, introdueix unicament caracters numerics");
+        }
+        else if (nota < 0 || nota > 10) {
+            alert("perfavor, introdueix una nota del 0 al 10.");
+        } else {
+            if (nota < 5) {
+                alert("INSUFICIENT")
+            }
+            else if (nota == 5) {
+                alert("SUFICIENT")
+            }
+            else if (nota <= 6){
+                alert("Bé")
+            }
+            else if (nota <= 8){
+                alert("Notable")
+            }
+            else if (nota <= 10){
+                alert("EXEL·LENT")
+            }
+        }
+    } while (condition);
+    
+
+</script>
+
+
+</body>
+</html>

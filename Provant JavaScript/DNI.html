@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+
+<script type="text/javascript">
+    var nom = window.prompt('Introdueix el DNI');
+    var valor = 0;
+    if (parseInt(nom) < 0){
+        alert("Tolai, el numero que mas donat es mentira");
+    }else if (parseInt(nom) > 99999999){
+        alert("Dona'm un nombre valid");
+    }else{
+    letras = ['T', 'R', 'W', 'A', 'G', 'M', 'Y', 'F',
+        'P', 'D', 'X', 'B', 'N', 'J', 'Z', 'S', 'Q', 'V', 'H', 'L', 'C',
+        'K', 'E', 'T'];
+    valor = parseInt(nom)%23;
+    alert(letras[valor]);
+    }
+    
+</script>
+
+
+</body>
+</html>

@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html>
+<body >
+    <div id="body"></div>
+
+
+<script type="text/javascript">
+    var json = [{Nom:"Rosa",Cognom:"Ferrer",Dni:"431432D",Data:"04/06/1986"},
+                {Nom:"Oscar",Cognom:"España",Dni:"5547989723M",Data:"30/01/2000"},
+                {Nom:"Alex",Cognom:"Granell",Dni:"554793F",Data:"30/09/1999"},
+                {Nom:"Vladislav",Cognom:"Hostyuk",Dni:"---",Data:"20/11/1998"},
+                {Nom:"Tatiana",Cognom:"Hikari",Dni:"23452435U",Data:"2/08/2200"}
+                ];
+    var taula = appendTable(false)
+    taula = taula+append1row()
+    taula = taula+appendRows()
+    taula = taula+appendTable(true)
+    document.getElementById("body").innerHTML += 
+              taula;
+    function appendTable(value){
+        if(value){
+            return "</table>"
+        }
+        return "<table>"
+    }
+    function append1row(){
+        return "<tr><td>NOM</td><td>COGNOM</td><td>DNI</td><td>DATA NAIXEMENT</td></tr>"
+    }
+    function appendRows(){
+        var rows="";
+        json.forEach(element => {
+            let splitted = element.Data.split("/");
+            rows = rows+"<tr><td>"+element.Nom+"</td>"+"<td>"+element.Cognom+"</td>"+"<td>"+element.Dni+"</td>"+"<td>"+formataData(splitted[0],splitted[1],splitted[2])+"</td>"+"</tr>"
+        });
+        return rows;
+    }
+    function formataData(dia,mes,any){
+        mes = parseInt(mes);
+        switch (mes) {
+            case 1:
+                return dia+" de gener del "+any
+                break;
+            case 2:
+                return dia+" de febrer del "+any
+                break;
+            case 3:
+                return dia+" de març del "+any
+                break;
+            case 4:
+                return dia+" de abril del "+any
+                break;
+            case 5:
+                return dia+" de maig del "+any
+                break;
+            case 6:
+                return dia+" de juny del "+any
+                break;
+            case 7:
+                return dia+" de juliol del "+any
+                break;
+            case 8:
+                return dia+" de agost del "+any
+                break;
+            case 9:
+                return dia+" de septembre del "+any
+                break;
+            case 10:
+                return dia+" de octubre del "+any
+                break;
+            case 11:
+                return dia+" de novembre del "+any
+                break;
+            case 12:
+                return dia+" de descembre del "+any
+                break;
+            default:
+                return "ERROR, MES INEXISTENT"
+                break;
+        }
+        
+    }
+</script>
+
+
+</body>
+</html>

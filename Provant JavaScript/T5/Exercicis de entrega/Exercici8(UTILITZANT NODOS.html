@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html>
+<body >
+    <div id="body"></div>
+
+
+<script type="text/javascript">
+    var json = [{}];
+    var nom = "";
+    var cognom = "";
+    var dni = "";
+    var dataNaixement = "";
+    var i = 0;
+    var body = document.getElementById("body");
+    getJsonInfo(json);
+    var taula = appendTable()
+    append1row()
+    appendRows()
+    function getJsonInfo(json){
+        i=0
+        while (true) {
+            nom = window.prompt("Dona'm el nom de la 1a persona (!ESCRIU EXIT PER EXIR!)");
+            if(nom.toLocaleLowerCase() == "exit" ){
+                break;
+            }
+            cognom = window.prompt("Dona'm el cognom");
+            dni = window.prompt("Dona'm el dni");
+            dataNaixement = window.prompt("Dona'm la data de naixement. Format: DD/MM/AAAA")
+            json[i] = {Nom:nom, Cognom:cognom, Dni:dni,Data:dataNaixement};
+            i++
+        }
+    }
+    function appendTable(){
+        let tag = document.createElement("table");
+        body.appendChild(tag);
+        return tag;
+    }
+    function append1row(){
+        let tag = document.createElement("tr");
+        let td = document.createElement("td");
+        let text = document.createTextNode("NOM");
+        td.appendChild(text);
+        tag.appendChild(td);
+        td = document.createElement("td");
+        text = document.createTextNode("COGNOM");
+        td.appendChild(text);
+        tag.appendChild(td);
+        td = document.createElement("td");
+        text = document.createTextNode("DNI");
+        td.appendChild(text);
+        tag.appendChild(td);
+        td = document.createElement("td");
+        text = document.createTextNode("DATA DE NAIXEMENT");
+        td.appendChild(text);
+        tag.appendChild(td);
+        taula.appendChild(tag)
+    }
+    function appendRows(){
+        json.forEach(element => {
+            var tr = document.createElement("tr");
+            var tdNom =document.createElement("td");
+            var tdCognom = document.createElement("td");
+            var tdDni = document.createElement("td");
+            var tdData = document.createElement("td");
+            var textNom = document.createTextNode(element.Nom);
+            var textCognom = document.createTextNode(element.Cognom);
+            var textDni = document.createTextNode(element.Dni);
+            var splittedData = element.Data.split("/");
+            var textData = document.createTextNode(formataData(splittedData[0],splittedData[1],splittedData[2]));
+            tdNom.appendChild(textNom);
+            tdCognom.appendChild(textCognom);
+            tdDni.appendChild(textDni);
+            tdData.appendChild(textData);
+            tr.appendChild(tdNom);
+            tr.appendChild(tdCognom);
+            tr.appendChild(tdDni);
+            tr.appendChild(tdData);
+            taula.appendChild(tr);
+        });
+    }
+    function formataData(dia,mes,any){
+        mes = parseInt(mes);
+        switch (mes) {
+            case 1:
+                return dia+" de gener del "+any
+                break;
+            case 2:
+                return dia+" de febrer del "+any
+                break;
+            case 3:
+                return dia+" de març del "+any
+                break;
+            case 4:
+                return dia+" de abril del "+any
+                break;
+            case 5:
+                return dia+" de maig del "+any
+                break;
+            case 6:
+                return dia+" de juny del "+any
+                break;
+            case 7:
+                return dia+" de juliol del "+any
+                break;
+            case 8:
+                return dia+" de agost del "+any
+                break;
+            case 9:
+                return dia+" de septembre del "+any
+                break;
+            case 10:
+                return dia+" de octubre del "+any
+                break;
+            case 11:
+                return dia+" de novembre del "+any
+                break;
+            case 12:
+                return dia+" de descembre del "+any
+                break;
+            default:
+                return "ERROR, MES INEXISTENT"
+                break;
+        }
+        
+    }
+</script>
+
+
+</body>
+</html>

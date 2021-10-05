@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+
+<script type="text/javascript">
+    var primitiva = [0,0,0,0,0,0];
+    var jugador = window.prompt("Introdueix els nombres de la teua primitiva, separats per comes");
+    var jugadorArray = jugador.split(",");
+    var encerts = 0;
+    for (let index = 0; index < primitiva.length; index++) {
+        primitiva[index]=getRandomInt(1,50);
+    }
+    for (index = 0; index < primitiva.length; index++) {
+        jugadorArray.forEach(element => {
+            if (parseInt(element) == primitiva[index]){
+                encerts++;
+            }
+        });
+    }
+    console.log(primitiva+"   --->   "+jugadorArray)
+    alert("Total d'encerts ->"+encerts);
+    function getRandomInt(min, max) {
+        return Math.floor(Math.random() * (max - min)) + min;
+    }
+</script>
+
+
+</body>
+</html>

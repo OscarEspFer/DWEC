@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+
+<script type="text/javascript">
+    var pes = window.prompt("Introdueïx el pes");
+    var altura = window.prompt("Introdueix l'altura");
+    var resultat = parseFloat(pes)/(Math.pow(parseFloat(altura),2) );
+
+    if (resultat < 18.5) {
+        alert("DELGADEZ")
+    } else if(resultat <= 24.9){
+        alert("Normal")
+    }else if(resultat <= 29.9){
+        alert("Sobrepeso")
+    }else if(resultat <= 34.9){
+        alert("OBESIDAD TIPO I")
+    }else if(resultat <= 39.9){
+        alert("OBESIDAD TIPO II")
+    }else if(resultat > 39.9){
+        alert("OBESIDAD TIPO III")
+    }
+
+</script>
+
+
+</body>
+</html>

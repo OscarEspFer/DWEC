@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+
+<script type="text/javascript">
+    Bingo()
+    function Bingo() {
+        var nombres = [];
+        var nombre;
+        var flag=false;
+        for (let index = 0; index < 25; index++) {
+            nombre = getRandomInt(1,100);
+            for (let index = 0; index < nombres.length; index++) {
+                if(nombre == nombres[index]){
+                    flag == true;
+                }
+                
+            }
+            if (!flag){
+                nombres.push(nombre);
+            }
+            
+        }
+        console.log(nombres);
+    }
+    function getRandomInt(min, max) {
+        return Math.floor(Math.random() * (max - min)) + min;
+    }
+</script>
+
+
+</body>
+</html>

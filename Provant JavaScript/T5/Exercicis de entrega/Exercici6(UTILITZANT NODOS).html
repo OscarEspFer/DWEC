@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html>
+<body >
+    <div id="body"></div>
+
+
+<script type="text/javascript">
+    var json = [{}];
+    var nom = "";
+    var cognom = "";
+    var dni = "";
+    var i = 0;
+    var body = document.getElementById("body");
+    getJsonInfo(json);
+    var taula = appendTable()
+    append1row()
+    appendRows()
+    function getJsonInfo(json){
+        i=0
+        while (true) {
+            nom = window.prompt("Dona'm el nom de la 1a persona (!ESCRIU EXIT PER EXIR!)");
+            if(nom.toLocaleLowerCase() == "exit"){
+                break;
+            }
+            cognom = window.prompt("Dona'm el cognom");
+            dni = window.prompt("Dona'm el dni");
+            json[i] = {Nom:nom, Cognom:cognom, Dni:dni};
+            i++
+        }
+    }
+    function appendTable(){
+        let tag = document.createElement("table");
+        body.appendChild(tag);
+        return tag;
+    }
+    function append1row(){
+        let tag = document.createElement("tr");
+        let td = document.createElement("td");
+        let text = document.createTextNode("NOM");
+        td.appendChild(text);
+        tag.appendChild(td);
+        td = document.createElement("td");
+        text = document.createTextNode("COGNOM");
+        td.appendChild(text);
+        tag.appendChild(td);
+        td = document.createElement("td");
+        text = document.createTextNode("DNI");
+        td.appendChild(text);
+        tag.appendChild(td);
+        taula.appendChild(tag)
+    }
+    function appendRows(){
+        json.forEach(element => {
+            var tr = document.createElement("tr");
+            var tdNom =document.createElement("td");
+            var tdCognom = document.createElement("td");
+            var tdDni = document.createElement("td");
+            var textNom = document.createTextNode(element.Nom);
+            var textCognom = document.createTextNode(element.Cognom);
+            var textDni = document.createTextNode(element.Dni);
+            tdNom.appendChild(textNom);
+            tdCognom.appendChild(textCognom);
+            tdDni.appendChild(textDni);
+            tr.appendChild(tdNom);
+            tr.appendChild(tdCognom);
+            tr.appendChild(tdDni);
+            taula.appendChild(tr);
+        });
+    }
+</script>
+
+
+</body>
+</html>

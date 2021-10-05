@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+
+<script type="text/javascript">
+    alert(calcula(9,8,7))
+   function calcula() {
+       let suma = 0;
+       let mitjana = 0;
+        for (let index = 0; index < arguments.length; index++) {
+            if(isNaN(arguments[index])){
+                return "Has introduït un caracter"
+            }
+            if(arguments[index]>9){
+                return "Has introduït un nombre major de 9"
+            }
+            if(arguments[index]<0){
+                return "Has introduït un nombre negatiu"
+            }
+            suma = suma+arguments[index];
+            
+        }
+        mitjana = suma/arguments.length;
+        return "S'han introduït "+arguments.length+" valors. La seua suma és "+suma+" la seua mitjana és "+mitjana
+   }
+    
+    
+</script>
+
+
+</body>
+</html>

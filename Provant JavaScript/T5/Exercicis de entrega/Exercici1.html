@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+
+<script type="text/javascript">
+    var cadena = window.prompt("Introdueix una frase");
+    alert(stringreverser(cadena));
+   function stringreverser(cadena) {
+        splittedcadena = cadena.split("");
+        var cadenaResult="";
+        for (let index = splittedcadena.length-1; index >= 0; index--) {
+            cadenaResult = cadenaResult+splittedcadena[index];
+            
+        }
+        return cadenaResult;
+   }
+    
+    
+</script>
+
+
+</body>
+</html>

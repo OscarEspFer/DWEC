@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+
+<script type="text/javascript">
+    var radi = window.prompt("Dona'm el radi");
+    if(!isNaN(radi)){
+        if(radi<0){
+            radi = radi * -1;
+        }
+        alert(matesAreaCercle(radi,matesPI()));
+
+    }else{
+        alert("No m'has donat un numero.");
+    }
+   function matesAreaCercle(radi,funcioPI) {
+        return (radi*radi*funcioPI);
+   }
+   function matesPI() {
+        return 3.14;
+   }
+    
+    
+</script>
+
+
+</body>
+</html>
