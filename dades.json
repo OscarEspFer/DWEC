@@ -1,4 +1,4 @@
 {"Viviendes":[
-{"id":"1","preu":"280.000€","lloc":"Avinguda Inventada 1","balco":false,"pis":false}
+{"id":"1","preu":"280.000€","lloc":"Avinguda Inventada 1","balco":false,"pis":false,"terrassa":false,"ascensor":false,"aire":false,"garatje":true,"electrodomestico":["nevera","extractor"]
 ]
 }
