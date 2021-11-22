@@ -18,6 +18,10 @@
 					"nom": "forn",
 					"preu": 1500
 				}
+			],
+			"imatges":[
+				"img.jpg",
+				"img2.jpg"
 			]
 		},
         {
@@ -38,6 +42,10 @@
 					"nom": "llavaplats",
 					"preu": 1500
 				}
+			],
+			"imatges":[
+				"img.jpg",
+				"img2.jpg"
 			]
 		},
         {
@@ -58,6 +66,10 @@
 					"nom": "forn",
 					"preu": 1500
 				}
+			],
+			"imatges":[
+				"img.jpg",
+				"img2.jpg"
 			]
 		}
 	]
