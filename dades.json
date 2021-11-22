@@ -1,4 +1,64 @@
-{"Viviendes":[
-{"id":"1","preu":"280.000€","lloc":"Avinguda Inventada 1","balco":false,"pis":false,"terrassa":false,"ascensor":false,"aire":false,"garatje":true,"electrodomestico":["nevera","extractor"]
-]
+{
+	"Viviendes": [
+		{
+			"id": "1",
+			"preu": "280.000€",
+			"lloc": "Avinguda Inventada 1",
+			"balco": false,
+			"pis": false,
+			"terrassa": false,
+			"ascensor": false,
+			"garatje": true,
+			"electrodomestics": [
+				{
+					"nom": "nevera",
+					"preu": 1500
+				},
+				{
+					"nom": "forn",
+					"preu": 1500
+				}
+			]
+		},
+        {
+			"id": "2",
+			"preu": "380.000€",
+			"lloc": "Avinguda Inventada 1",
+			"balco": true,
+			"pis": true,
+			"terrassa": false,
+			"ascensor": true,
+			"garatje": true,
+			"electrodomestics": [
+				{
+					"nom": "nevera",
+					"preu": 1500
+				},
+				{
+					"nom": "llavaplats",
+					"preu": 1500
+				}
+			]
+		},
+        {
+			"id": "3",
+			"preu": "280.000€",
+			"lloc": "Avinguda Inventada 2",
+			"balco": false,
+			"pis": false,
+			"terrassa": false,
+			"ascensor": false,
+			"garatje": true,
+			"electrodomestics": [
+				{
+					"nom": "nevera",
+					"preu": 1500
+				},
+				{
+					"nom": "forn",
+					"preu": 1500
+				}
+			]
+		}
+	]
 }
