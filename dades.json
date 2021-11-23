@@ -3,11 +3,11 @@
 		{
 			"id": "1",
 			"destacada":true,
-			"preu": "280.000€",
+			"preu": "580.000€",
 			"lloc": "Avinguda Inventada 1",
 			"pis": false,
 			"balco": false,
-			"terrassa": false,
+			"terrassa": true,
 			"ascensor": false,
 			"garatje": true,
 			"electrodomestics": [
@@ -22,19 +22,20 @@
 			],
 			"imatges":[
 				"img.jpg",
-				"img2.jpg"
+				"img2.jpg",
+				"img3.jpg"
 			]
 		},
         {
 			"id": "2",
 			"destacada":true,
-			"preu": "380.000€",
+			"preu": "200.000€",
 			"lloc": "Avinguda Inventada 1",
-			"pis": false,
-			"balco": false,
+			"pis": true,
+			"balco": true,
 			"terrassa": false,
 			"ascensor": true,
-			"garatje": true,
+			"garatje": false,
 			"electrodomestics": [
 				{
 					"nom": "nevera",
@@ -47,7 +48,8 @@
 			],
 			"imatges":[
 				"img.jpg",
-				"img2.jpg"
+				"img2.jpg",
+				"img3.jpg"
 			]
 		},
         {
@@ -59,6 +61,32 @@
 			"balco": false,
 			"terrassa": false,
 			"ascensor": false,
+			"garatje": false,
+			"electrodomestics": [
+				{
+					"nom": "nevera",
+					"preu": 1500
+				},
+				{
+					"nom": "forn",
+					"preu": 1500
+				}
+			],
+			"imatges":[
+				"img.jpg",
+				"img2.jpg",
+				"img3.jpg"
+			]
+		},
+		{
+			"id": "4",
+			"destacada":false,
+			"preu": "680.000€",
+			"lloc": "Avinguda Inventada 3",
+			"pis": false,
+			"balco": false,
+			"terrassa": true,
+			"ascensor": true,
 			"garatje": true,
 			"electrodomestics": [
 				{
@@ -72,7 +100,60 @@
 			],
 			"imatges":[
 				"img.jpg",
-				"img2.jpg"
+				"img2.jpg",
+				"img3.jpg"
+			]
+		},
+		{
+			"id": "5",
+			"destacada":false,
+			"preu": "18.000€",
+			"lloc": "Avinguda Inventada 3",
+			"pis": true,
+			"balco": false,
+			"terrassa": false,
+			"ascensor": false,
+			"garatje": false,
+			"electrodomestics": [
+				{
+					"nom": "nevera",
+					"preu": 1500
+				},
+				{
+					"nom": "forn",
+					"preu": 1500
+				}
+			],
+			"imatges":[
+				"img.jpg",
+				"img2.jpg",
+				"img3.jpg"
+			]
+		},
+		{
+			"id": "6",
+			"destacada":false,
+			"preu": "1.680.000€",
+			"lloc": "Avinguda Inventada 3",
+			"pis": false,
+			"balco": true,
+			"terrassa": true,
+			"ascensor": true,
+			"garatje": true,
+			"electrodomestics": [
+				{
+					"nom": "nevera",
+					"preu": 1500
+				},
+				{
+					"nom": "forn",
+					"preu": 1500
+				}
+			],
+			"imatges":[
+				"img.jpg",
+				"img2.jpg",
+				"img3.jpg"
 			]
 		}
 	]
