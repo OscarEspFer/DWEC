@@ -7,7 +7,6 @@
 			"lloc": "Avinguda Inventada 1",
 			"pis": false,
 			"balco": false,
-			"terrassa": true,
 			"ascensor": false,
 			"garatje": true,
 			"electrodomestics": [
@@ -21,7 +20,7 @@
 				}
 			],
 			"imatges":[
-				"img.jpg",
+				"1-1.png",
 				"img2.jpg",
 				"img3.jpg"
 			]
@@ -33,7 +32,6 @@
 			"lloc": "Avinguda Inventada 1",
 			"pis": true,
 			"balco": true,
-			"terrassa": false,
 			"ascensor": true,
 			"garatje": false,
 			"electrodomestics": [
@@ -47,7 +45,7 @@
 				}
 			],
 			"imatges":[
-				"img.jpg",
+				"2-1.png",
 				"img2.jpg",
 				"img3.jpg"
 			]
@@ -59,7 +57,6 @@
 			"lloc": "Avinguda Inventada 2",
 			"pis": false,
 			"balco": false,
-			"terrassa": false,
 			"ascensor": false,
 			"garatje": false,
 			"electrodomestics": [
@@ -73,7 +70,7 @@
 				}
 			],
 			"imatges":[
-				"img.jpg",
+				"3-1.png",
 				"img2.jpg",
 				"img3.jpg"
 			]
@@ -85,7 +82,6 @@
 			"lloc": "Avinguda Inventada 3",
 			"pis": false,
 			"balco": false,
-			"terrassa": true,
 			"ascensor": true,
 			"garatje": true,
 			"electrodomestics": [
@@ -99,7 +95,7 @@
 				}
 			],
 			"imatges":[
-				"img.jpg",
+				"4-1.png",
 				"img2.jpg",
 				"img3.jpg"
 			]
@@ -111,7 +107,6 @@
 			"lloc": "Avinguda Inventada 3",
 			"pis": true,
 			"balco": false,
-			"terrassa": false,
 			"ascensor": false,
 			"garatje": false,
 			"electrodomestics": [
@@ -125,7 +120,7 @@
 				}
 			],
 			"imatges":[
-				"img.jpg",
+				"5-1.png",
 				"img2.jpg",
 				"img3.jpg"
 			]
@@ -137,7 +132,6 @@
 			"lloc": "Avinguda Inventada 3",
 			"pis": false,
 			"balco": true,
-			"terrassa": true,
 			"ascensor": true,
 			"garatje": true,
 			"electrodomestics": [
@@ -151,7 +145,7 @@
 				}
 			],
 			"imatges":[
-				"img.jpg",
+				"6-1.png",
 				"img2.jpg",
 				"img3.jpg"
 			]
