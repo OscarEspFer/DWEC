@@ -1,0 +1,154 @@
+{
+	"Viviendes": [
+		{
+			"id": "1",
+			"destacada":true,
+			"preu": "580.000€",
+			"lloc": "Avinguda Inventada 1",
+			"pis": false,
+			"balco": false,
+			"ascensor": false,
+			"cotxera": true,
+			"electrodomestics": [
+				{
+					"nom": "nevera",
+					"preu": 1500
+				},
+				{
+					"nom": "forn",
+					"preu": 1500
+				}
+			],
+			"imatges":[
+				"1-1.png",
+				"1-2.png",
+				"1-3.png"
+			]
+		},
+        {
+			"id": "2",
+			"destacada":true,
+			"preu": "200.000€",
+			"lloc": "Avinguda Inventada 1",
+			"pis": true,
+			"balco": true,
+			"ascensor": true,
+			"cotxera": false,
+			"electrodomestics": [
+				{
+					"nom": "nevera",
+					"preu": 1500
+				},
+				{
+					"nom": "llavaplats",
+					"preu": 1500
+				}
+			],
+			"imatges":[
+				"2-1.png",
+				"2-2.png",
+				"2-3.png"
+			]
+		},
+        {
+			"id": "3",
+			"destacada":true,
+			"preu": "280.000€",
+			"lloc": "Avinguda Inventada 2",
+			"pis": false,
+			"balco": false,
+			"ascensor": false,
+			"cotxera": false,
+			"electrodomestics": [
+				{
+					"nom": "nevera",
+					"preu": 1500
+				},
+				{
+					"nom": "forn",
+					"preu": 1500
+				}
+			],
+			"imatges":[
+				"3-1.png",
+				"3-2.png"
+			]
+		},
+		{
+			"id": "4",
+			"destacada":false,
+			"preu": "680.000€",
+			"lloc": "Avinguda Inventada 3",
+			"pis": false,
+			"balco": false,
+			"ascensor": true,
+			"cotxera": true,
+			"electrodomestics": [
+				{
+					"nom": "nevera",
+					"preu": 1500
+				},
+				{
+					"nom": "forn",
+					"preu": 1500
+				}
+			],
+			"imatges":[
+				"4-1.png",
+				"4-2.png",
+				"4-3.png",
+				"4-4.png"
+			]
+		},
+		{
+			"id": "5",
+			"destacada":false,
+			"preu": "18.000€",
+			"lloc": "Avinguda Inventada 3",
+			"pis": true,
+			"balco": false,
+			"ascensor": false,
+			"cotxera": false,
+			"electrodomestics": [
+				{
+					"nom": "nevera",
+					"preu": 1500
+				},
+				{
+					"nom": "forn",
+					"preu": 1500
+				}
+			],
+			"imatges":[
+				"5-1.png",
+				"5-2.png"
+			]
+		},
+		{
+			"id": "6",
+			"destacada":false,
+			"preu": "1.680.000€",
+			"lloc": "Avinguda Inventada 3",
+			"pis": false,
+			"balco": true,
+			"ascensor": true,
+			"cotxera": true,
+			"electrodomestics": [
+				{
+					"nom": "nevera",
+					"preu": 1500
+				},
+				{
+					"nom": "forn",
+					"preu": 1500
+				}
+			],
+			"imatges":[
+				"6-1.png",
+				"6-2.png",
+				"6-3.png",
+				"6-4.png"
+			]
+		}
+	]
+}
