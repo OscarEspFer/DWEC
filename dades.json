@@ -95,8 +95,9 @@
 			],
 			"imatges":[
 				"4-1.png",
-				"img2.jpg",
-				"img3.jpg"
+				"4-2.png",
+				"4-3.png",
+				"4-4.png"
 			]
 		},
 		{
@@ -120,8 +121,7 @@
 			],
 			"imatges":[
 				"5-1.png",
-				"img2.jpg",
-				"img3.jpg"
+				"5-2.png"
 			]
 		},
 		{
@@ -145,8 +145,9 @@
 			],
 			"imatges":[
 				"6-1.png",
-				"img2.jpg",
-				"img3.jpg"
+				"6-2.png",
+				"6-3.png",
+				"6-4.png"
 			]
 		}
 	]
