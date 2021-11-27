@@ -21,8 +21,8 @@
 			],
 			"imatges":[
 				"1-1.png",
-				"img2.jpg",
-				"img3.jpg"
+				"1-2.png",
+				"1-3.png"
 			]
 		},
         {
@@ -46,8 +46,8 @@
 			],
 			"imatges":[
 				"2-1.png",
-				"img2.jpg",
-				"img3.jpg"
+				"2-2.png",
+				"2-3.png"
 			]
 		},
         {
@@ -71,8 +71,7 @@
 			],
 			"imatges":[
 				"3-1.png",
-				"img2.jpg",
-				"img3.jpg"
+				"3-2.png"
 			]
 		},
 		{
