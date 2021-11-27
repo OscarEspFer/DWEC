@@ -8,7 +8,7 @@
 			"pis": false,
 			"balco": false,
 			"ascensor": false,
-			"garatje": true,
+			"cotxera": true,
 			"electrodomestics": [
 				{
 					"nom": "nevera",
@@ -33,7 +33,7 @@
 			"pis": true,
 			"balco": true,
 			"ascensor": true,
-			"garatje": false,
+			"cotxera": false,
 			"electrodomestics": [
 				{
 					"nom": "nevera",
@@ -58,7 +58,7 @@
 			"pis": false,
 			"balco": false,
 			"ascensor": false,
-			"garatje": false,
+			"cotxera": false,
 			"electrodomestics": [
 				{
 					"nom": "nevera",
@@ -83,7 +83,7 @@
 			"pis": false,
 			"balco": false,
 			"ascensor": true,
-			"garatje": true,
+			"cotxera": true,
 			"electrodomestics": [
 				{
 					"nom": "nevera",
@@ -108,7 +108,7 @@
 			"pis": true,
 			"balco": false,
 			"ascensor": false,
-			"garatje": false,
+			"cotxera": false,
 			"electrodomestics": [
 				{
 					"nom": "nevera",
@@ -133,7 +133,7 @@
 			"pis": false,
 			"balco": true,
 			"ascensor": true,
-			"garatje": true,
+			"cotxera": true,
 			"electrodomestics": [
 				{
 					"nom": "nevera",
